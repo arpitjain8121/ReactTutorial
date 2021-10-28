@@ -1,0 +1,63 @@
+.quote-box {
+  max-width: 768px;
+  width: 100%;
+  border: 4px solid;
+  padding: 2.5em;
+  margin-top: 20vh;
+}
+
+.quote-box .text {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.quote-box .text::before {
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.46em;
+}
+
+.author {
+  text-align: right;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.footer a,button {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.footer a:hover, button:hover {
+  box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.75);
+}
+
+.footer a:active, button:active {
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+.tweet-quote {
+  margin-right: 1em;
+}
+
+.tweet-quote img {
+  height: 20px;
+  width: 20px;
+}
+
+.tumblr-quote img {
+  height: 20px;
+  width: 20px;
+}

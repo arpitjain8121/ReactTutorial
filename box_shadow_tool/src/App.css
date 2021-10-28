@@ -1,0 +1,11 @@
+.boxHeading{text-align: center;}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 85vh;
+}
+
+.controls{width: 40vw;}
+
+.box{width:40vw;height:50vh;background-color: blueviolet;color: #fff;text-align: center; padding: 10vw 0;}

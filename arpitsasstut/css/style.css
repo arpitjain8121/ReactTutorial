@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif; }
+
+header {
+  height: 100vh;
+  background-color: #222f3e;
+  width: 80%;
+  color: #DC7633;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  header h1 {
+    text-transform: capitalize;
+    color: #DC7633; }
+    header h1:hover {
+      color: #48dbfb; }
+    header h1::after {
+      content: "Channel"; }
+  header p {
+    text-transform: capitalize;
+    color: #DC7633; }
+    header p:hover {
+      color: #48dbfb; }
+
+.secheader {
+  height: 100vh;
+  background-color: #7a7a6a;
+  width: 80%;
+  color: #DC7633;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }

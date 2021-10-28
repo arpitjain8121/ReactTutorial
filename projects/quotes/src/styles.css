@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+#attribution {
+  z-index: 50;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 20px;
+}
+
+#attribution a {
+  color: #806c9f;
+  margin-left: 4px;
+  vertical-align: middle;
+}

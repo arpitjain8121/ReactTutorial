@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.myDiv{
+  display: flex;
+  justify-content: space-around;
+  margin:10px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+  line-height: 3;
+}
+
+.txtbox{height: 30px;width:60%;margin-top:7px;font-size: 18px;}
+.txtbox:focus{padding-left:10px;}
+
+.sendBtn{width: 10%;height: 35px;margin-top:5PX;background-color: indigo;color:#fff;border: none;}
+
+.gallery{display: flex;justify-content: space-around;flex-wrap: wrap;}
+
+.item{width:30%;margin: 5px;}
+
+span{font-size: 18px;}

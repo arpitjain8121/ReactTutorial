@@ -1,0 +1,25 @@
+body {
+  background: #f8f9fa;
+  margin:0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#img_logo {max-height: 120px;padding: 15px;margin-top: 3em;margin-bottom: 1em;}
+
+.signIn{border:1px solid #ddddde;height: auto;margin:0px auto;max-width: 420px;width:100%;background-color: #fff!important;}
+
+.signIn__heading{color: #2d2e2f;text-align: left;font-weight: 600;font-size: 18px;margin-top:0;}
+
+.signIn__email,.signIn__password{margin-top:1em;margin-bottom:1em;height: 45px; border: solid 1px #ddddde;font-size: 16px;color:#989998;letter-spacing: 0.15px;text-align: left;border-radius: 4px;}
+
+.signIn__btn{color: #382705;background-color: #f8b318;width: 100%;padding:9px;border-radius:0px;font-weight: 600;font-size: 14px;border:none; margin-top:1em;}
+
+.error-message{font-size: 12px;color:#fc3030}
+
+.sms__body{cursor: pointer;padding: 2rem;}
+
+
+#img_logo_dashboard {max-height: 80px;margin-top: 1em;margin-bottom: 2em;}
+
+.logout__btn{margin-top:3em;float:right;}

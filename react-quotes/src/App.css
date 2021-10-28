@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+#Quotes{
+  max-width: 500px;
+  align-self: center;
+  margin: 50px auto;  
+  border: 2px solid red;
+  padding: 35px;
+}
+
+#Quotes #text{
+  font-size: 2.2rem;
+  text-align: center;
+}
+#Quotes #author{
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

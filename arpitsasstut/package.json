@@ -1,0 +1,14 @@
+{
+  "name": "arpitsasstut",
+  "version": "1.0.0",
+  "description": "sass tutorial",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "arpit jain",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

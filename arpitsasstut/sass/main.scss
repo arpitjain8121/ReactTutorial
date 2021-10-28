@@ -1,0 +1,25 @@
+*{margin:0;padding: 0;font-family: 'Rubik', sans-serif;}
+@import 'mixins';
+@import 'variables';
+
+header{
+    @include headercode(#222f3e);
+
+    h1{ @include commoncode;
+        &:hover{color:#48dbfb;}
+        &::after{content:"Channel"}
+    }
+
+    p{@include commoncode;
+        &:hover{color:#48dbfb;}
+    }
+}
+
+.secheader{
+
+    @include headercode(#7a7a6a);
+
+}
+
+
+
